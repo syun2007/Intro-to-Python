@@ -1,6 +1,7 @@
 '''
 Fibonacci sequence in 20 lines or more
 By Sam Yun
+g**n
 '''
 
 
