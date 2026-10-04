@@ -4,8 +4,14 @@ Samuel Yun
 Evil Rephactor
 '''
 
-def highest_values(num_list, num):
-    list.sort(num_list)
-    print(num_list)
-    return num_list[len(num_list)-num:]
+my_string = "hello"
 
+def count_vowels(string):
+    counts = 0
+    vowels = {"a", "e", "i", "o", "u", "A", "E", "I", "O", "U"}
+    for i in string:
+        if i == vowels:
+            counts += 1
+    return counts
+
+print(count_vowels("amongus"))
